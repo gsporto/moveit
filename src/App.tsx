@@ -1,5 +1,13 @@
+import { Button } from "./components/Button";
+
 function App() {
-  return <h1>Hello Nlw#04</h1>
+  return (
+    <>
+    <Button color="red">Botão 1</Button>
+    <Button color="blue">Botão 2</Button>
+    <Button color="green">Botão 3</Button>
+    </>
+  )
 }
 
 export default App;
